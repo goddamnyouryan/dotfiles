@@ -1,0 +1,38 @@
+[user]
+	name = Ryan MacInnes
+	email = ryan.macinnes@gmail.com
+	#name = Ryan MacInnes & Ben Callaway
+	#email = ryanm+bcallaway@goodinc.com
+        #name = Ryan and Allison
+        #email = ryanm+ale@goodinc.com
+        #name = Ryan MacInnes and Nicholas Hughes
+        #email = ryanm+nick@goodinc.com
+        #name = Ryan ✂  Rexy
+        #email = ryanm+rexy@goodinc.com
+        #name = Ryan and Claudio
+        #email = ryanm+claudio@goodinc.com
+[alias]
+	co = checkout
+	st = status -sb
+        br = branch
+        f = fetch
+        m = merge
+        r = rebase
+        mom = merge origin/master
+	lol = log --graph
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = input
+	editor = vim
+[apply]
+	whitespace = nowarn
+[format]
+	pretty = %C(yellow)%h%Creset %s %C(red)(%cr, %aN)%Creset
+[push]
+	default=current
+[heroku]
+	account = default
