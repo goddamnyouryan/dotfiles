@@ -1,7 +1,6 @@
 runtime! autoload/pathogen.vim
 silent! call pathogen#helptags()
 silent! call pathogen#runtime_append_all_bundles()
-syntax on
 set nocompatible
 set softtabstop=2
 set shiftwidth=2
@@ -17,7 +16,8 @@ filetype plugin on
 set incsearch
 set ignorecase
 set smartcase
-set t_Co=256
+
+syntax on
 set background=dark
 colorscheme base16-ocean
 

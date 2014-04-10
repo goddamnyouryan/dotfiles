@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/header
+~MSle0~/black
 
 # Last Substitute Search Pattern:
 ~MSle0&"
@@ -18,47 +18,47 @@ $
 
 # Command Line History (newest to oldest):
 :q
-:wq
 :w
-:vsp app/views/account_mailer/
-:vsp app/assets/stylesheets/registration/
-:vsp app/assets/stylesheets/registration/layout.css.scss
-:vsp app/views/layouts/registration.html.slim
-:vsp app/views/devise/registrations/edit.html.slim
-:vsp ../summerland/config/routes.rb
-:q!
-:vsp ../foodforward/app/controllers/users/registrations_controller.rb
-:vsp 
-:vsp ../foodforward/app/controllers/users/invitations_controller.rb
-:vsp ../foodforward/config/routes.rb
-:w:w
-:vsp spec/models/event_spec.rb
-:vsp ../houndstooth/app/assets/stylesheets/mixins/_fonts.scss
-:W
-:;;
-:vsp ../foodforward/Rakefile
+:wq
+:vsp spec/controllers/cart_items_controller_spec.rb
+:vsp spec/factories/purchase_types.rb
+:vsp app/controllers/cart_items_controller.rb
+:Q
+:ds
+:vsp ../summerland/.gitignore
+:vsp ../maud/spec/spec_helper.rb
+:vsp spec/models/payment_spec.rb
+:vsp spec/support/database_cleaner.rb
+:Gblame
+:vsp spec/factories/ui
+:vsp ../maud/Gemfile
+:vsp app/models/user.rb
+:vsp app/controllers/admin/add_ons_controller.rb
+:set paste
+:!
+:vsp
 
 # Search String History (newest to oldest):
-?/header
-?/field
-?/form
-?/static
-?/form/
-?/float
-?/section
+?/black
+?/day
+?/create
+?/private
+?/find
 ?/debugger
-?/has_day_repeat
-?/repeats?
-? \<repeat_day\>
-?/create_propert
-?/precom
-?/precomig
-?/assets
-?/summerl
+?/params
+?/build
+?/@charge
 ?/charge
-?/amount
-?/logo
-?/clientjj
+?/debugg
+?/sample
+?/valid_card
+?/holiday_email
+?/delivery_con
+?/delivery
+?/delivery_update
+?/delivery_uodate
+?/pending
+?/payment_failure
 
 # Expression History (newest to oldest):
 
@@ -67,41 +67,32 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	        h1 Hi, I'm Maud.
-""1	LINE	0
-	
+""0	LINE	0
+	      puts "Day: #{id}"
+"1	LINE	0
+	      puts "Day: #{id}"
 "2	LINE	0
-	  h1 Sign Up
+	
 "3	LINE	0
-	= content_for :header do
+	  private
 "4	LINE	0
-	        h1 Hi, I'm Maud.
+	        pending 'figure out how to do test this properly when you have internet'
 "5	LINE	0
-	          h1 = yield(:header)
+	          pending 'figure out how to do test this properly when you have internet'
 "6	LINE	0
-	        - if content_for(:header)
+	    debugger
 "7	LINE	0
-	  @include border-radius(10px);
-	  border: 10px solid $registration-border;
-	  width: 400px;
-	  margin: 0 auto;
-	  background: $white;
-	  padding: 25px;
+	    debugger
 "8	LINE	0
-	    @include border-radius(10px);
-	    border: 10px solid $registration-border;
-	    background: white;
-	    padding: $padding;
-	    width: $width;
-	    margin: 0 auto;
+	
 "9	LINE	0
-	  }
+	        end
 "a	CHAR	0
 	721
 <a"#{\tapp	help:q\tapp	helpappjjjjjjjjjjjjjodef boolean_€kb€kb€kb€kb€kb€kb€kb€kbboolean_in_words(value)	if value	"yes"€kb€kb€kb€kb€kb'yes'€kbelse	'no':€kb:wgTaboolean_in_words(t€kbtree.clutter)}":wgtkkhhryjjkkkjrYjjrN:wgTi, bool€kb€kb€kb€kb\tapp	helptre€kb€kb€kbpropero	def clutter_removed?(valueddkdd:w\tapp	mo	hel\tapp	modeprojjjjjjjjjjjjjjjjjjjjjjkodef clutter_can_be_removed?	f€kbif self.clutter	'Yes, can be removed'€kbelse	'No, cannot be removed':wgTgT #{kjjjjjjj$i#{tree.clutter_can_be_removed}:wgtgtgTgTi?:wgtgtkkkky30Gd30G\tapp	mo	trejjjjkp:wkdduo:wgT:wkdd:wkgtjjjwlxxxxxrla€kb€kbCanjjwa€kb€kb€kb€kb€kbC:wkkllx:w:q:q:q:q\tapp	view
 "b	CHAR	0
-	bcwimage_url:w\tq
+	555
+<bbbwcwassociation :week, startingkkkkko	week = €kb€kb€kb€kb€kb€kb€kbweek_to€kb€kb€kb€kb€kb€kb€kbdays_week = 1.week.from_now:wjjbbbbbdt.wwwwwbi€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbdays.week:wjwi€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbdays.weekkbbbxjjwwi€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbdays.week:wa.:wj$a€kb€kb€kb€kbg_at: days.€kb_week.beginning_of_week(:sunday):wa, ending_at: days.€kb_week.b€kbend_of_week(:sunday):wkkkkkddp>>:wkj4Gwwr_:wjjbkhr_jjjjkkkhhhhhr_:wkkkjuuuuuuuuuuuuuuuuuuuudd:w\Tspec	
 "d	CHAR	0
 	321
 <dqddkkkkkkkkkkjodebugger:wjjjjjjjjjjjjjjjjkgt/createde€kb€kb_defagT€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbgTjjjjjjjgg/require///jjjjjjjjjjjjjjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk/load_see€kb//tq
@@ -111,13 +102,13 @@ $
 	267
 <efeferi:wgTgTwjjwkkbbbbbiname: BOX_TYPES €kb, :wgtgtre:w:qgtgtgTgtgTgTgTo	@boxes = PurchaseType.boxes.mpa€kb€kbap&:€kb€kb(&:boxes):wbbbbbbbbbcwpurchase_types:wwwwwwwbd$:wo@purchase_types.each dp€kbo |purchase_type€kb€kb€kb}	€kb€kb€kb€kb€kb}€kb|	
 "g	CHAR	0
-	tqjk
-"i	CHAR	0
+	2060
+<TgTgtgtuko	€kb@cart_item.user_id = @user.id:wjdddd:wkkkkkkkyyjjjjjjjjjjp	uo	before do	pkddkkkkkkkkky26Gjjjjjjjjjjjjjjkkkkpkow:wjjjjjjjjkkkdd:wkji@jjjjjwi@jjjjjjjjjjjjjkkkkkkkkkkkwwwwwwi@jjjjjjjjjjjji@jjjjjjjjjjjjj/params//////:w22Gwwk2Gi	uo	debugger:wkwjjkkkkkkwwwwwwwi€kb€kb€kb€kb€kb€kb€kb€kb:wkkkkwwwwxxxxxxxx:wkkkkkkkkkkjjjjjjjkjorequest.env['HTTP_REFERER'] = 'http://www.example.com':wko	€kb# because the controller redirects to back you need to set this explicity in tests:wko:w/debuggerw/dewk€kb€kb/debuggerwwdjdd:wwkjjjjjo	€kb	b€kbcontenxt €kb€kb€kb€kbxt 'if the current user is an admin'€kb€kb€kb dojoif the curren€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kbcontext 'if the current i€kbus is n€kb€kb€kb€kb€kber is not at an€kbdmin' do:wjjddkkko	onte€kb€kb€kb€kbcontext'€kb 'the item is t€kbin teh curre€kb€kb€kb€kb€kb€kb€kb€kbhe current users cart' dojocontext 'the item is not in the current users car;€kbt; do€kb€kb€kb€kb; do:w€kb€kb€kb€kbr':woendjddddkkkkkkkkkkkkkkxxkwwwwjjjjjjo	before do	@a€kbuser = create :user, type: 'Admin' €kb:wjjjjjo	before do	@uwer€kb€kb€kbser = create :user €kb:wo	€kbsign_o€kbin @user:wyykkkkkkkkopkddjoit 'deletes the cart item' do:wjjddkkkkkkkkko	context 'if the item is in the current users cart' dojddjjjjjjjoif the €kb€kb€kb€kb'the €kb€kb€kb€kb€kb€kb€kb€kbconten€kbxt 'the item is not in the current users cart' do:wkkkkkkkkkkd54Gkkkkkjpjjjjjjjj>58Gjjo€kbend:wkkkkkko	before do:wjjdd:wkkkkkkkkkkkkp	buo	before do	@purchase_type - €kb€kb- €kb€kb= create :purchase_type:wkjkkkkkkkkkkkkkkkkkkkkkkkki					@cart_item = create :cr€kbart_item :€kbpurchase_type:€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb€kb user: @user:wkjbbbbi€kb, :wkkkkkkkkkkkkdddddd:wjjjjjjjjjjjjkkkodelete :destroy, @cart_item.as_json:wjjjo	@cart_items.should€kb€kb€kb€kb€kb€kbdestroyed?.should be_true:wjdd:w\Tspec	fa	cartddddjjj$a€kb€kb€kb€kb€kb:wka€kb€kb€kb€kb€kb:wjj$:qgTjjjwjjjj\T
+"i@	CHAR	0
 	604
 <a €kbquestion: 1 }:wgtkwwwwbbct'ct,"ugTo€kbli	' 2. Was the content of the course accurately reflected in the course description?kkkkJJJJbbbbbbbbbbbi€kb€kb€kb:wo= render partial: 'question', locals: { u€kbquestion: 2 }:wgtct,"question[#{question}]"bbbbwis:wkkbbbbbbbblr"wwwwwr"wwb:1s/'/"/gwwwwwct}cw#{we€kb€kbverb}:wwwwwbcw#{er€kb€kbverb}wwctwcw#{€kb€kb€kr€krla€kb€kbverbwwwwcw#{vertb€kb€kbb}":wwwllllkkwwwwwwwwwwwwwwwwwwwwbct"#v€kb{very€kbb}:wgTkllkkki, verb€kb€kb€kb€kb€kb€kb€kb, verb: 'Satisfied':wa jjjji, €kb€kb€kb, verb: 'Acco€kburate'w:wa €kb€kb }:wgtgT:q€kbw
 "j	CHAR	0
-	702
-<gtkjoscope :previous(€kb, ->(id) { where€kb€kb€kb€kb€kbwhere('id < ?').first€kb€kb€kbrts€kb€kbst }:wnn:e!:ekjjjjjjjjjdd:wwwwwwhxxxx:w$bbwcwgTgtkkko	default_scope €kbT€kbgTgta order('created_at desc'):wjjjjkaa€kbi, self.id:wlddkodef next	Blog.where('id > ?', self.id):wkkjjjouk$a.firstjodef previous	Blog.were€kb€kb€kbhere('id < ?, self.id).lf€kb€kbfirst)bbbbbba':wj$k$a€kb:wkkkkbbbbbbbbbbipublica.a€kb€kb.:wjjjjbbipb€kbublic/€kb.:wgTjkddkdd\TGemjjj11Gdd:wgTjjwwwwwwc$uwbc$public.last:€kb:wbbbbbbhhx:wjjjkjo	@blog uo	@previous = Blog.€kb€kb€kb€kb€kb@blog.re€kb€kbprevious@next = Blog€kb€kb€kb€kb@blog.next:wgTgtgt:qgTgT:q\Tapp	view	bl
+	jjjjjjjjjorase €kb€kb€kbise '€kb"Day on #{datetime} doesn't exist!" k$a. first€kb€kb€kb€kb€kb€kbfirst:wbbbbbbbbbbbbbbbbiday = :wj$a €kbunless day.present?:woday:w:wgTgTjdd:wgtgtgTgTkkk
 "k	CHAR	0
 	
 "l	CHAR	0
@@ -139,1272 +130,130 @@ $
 "x	CHAR	0
 	xhhhhhhhhhhhx:wxxxxxxxxxxxxxxxxxxxxxx:wbbbbbbbbimethods: 'image_url', :wgTiiiuuuuujjdd:wgTgTgTjjkkkkkkkkkkjodebugger:wgtgtgtg\t
 "-	CHAR	0
-	p
+	.destroyed?.should be_true
 
 # File marks:
 'G  28  4  ~/Documents/GOOD/citizen/app/assets/javascripts/views/click_publisher_view.js.coffee
-'0  33  0  ~/.bash_profile
-'1  1  0  ~/Documents/GOOD/maud/.git/COMMIT_EDITMSG
-'2  3  0  ~/Documents/GOOD/maud/app/views/devise/passwords/edit.html.slim
-'3  1  0  ~/Documents/GOOD/maud/app/mailers/account_mailer.rb
-'4  1  0  ~/Documents/GOOD/maud/app/views/account_mailer/invite_request.html.slim
-'5  5  0  ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.erb
-'6  18  0  ~/Documents/GOOD/maud/app/views/layouts/email.html.slim
-'7  6  0  ~/Documents/GOOD/maud/app/views/devise/sessions/new.html.slim
-'8  5  0  ~/Documents/GOOD/maud/app/views/devise/registrations/edit.html.slim
-'9  14  23  ~/Documents/GOOD/maud/app/views/layouts/registration.html.slim
+'0  1  0  ~/Documents/GOOD/summerland/app/controllers/admin/assignments_controller.rb
+'1  5  24  ~/Documents/GOOD/summerland/app/controllers/admin/assignments_controller.rb
+'2  1  0  ~/Documents/GOOD/summerland/app/models/user.rb
+'3  1  0  ~/Documents/GOOD/summerland/app/assets/javascripts/models/add_on.js.coffee
+'4  87  0  ~/.viminfo
+'5  45  2  ~/.vim/colors/base16-ocean.vim
+'6  23  0  ~/.vimrc
+'7  60  0  ~/Documents/GOOD/summerland/app/models/purchase.rb
+'8  1  0  ~/Documents/GOOD/summerland/app/models/purchase
+'9  20  4  ~/Documents/GOOD/summerland/app/controllers/cart_items_controller.rb
 
 # Jumplist (newest first):
--'  33  0  ~/.bash_profile
--'  1  0  ~/.bash_profile
--'  1  0  ~/Documents/GOOD/maud/.git/COMMIT_EDITMSG
--'  3  0  ~/Documents/GOOD/maud/app/views/devise/passwords/edit.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/views/devise/passwords/edit.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/mailers/account_mailer.rb
--'  1  0  ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/views/account_mailer/invite_request.html.slim
--'  5  0  ~/Documents/GOOD/maud/NERD_tree_1
--'  6  2  ~/Documents/GOOD/maud/NERD_tree_1
--'  1  0  ~/Documents/GOOD/maud/NERD_tree_1
--'  4  0  ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.slim
--'  5  54  ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.slim
--'  5  0  ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.erb
--'  1  0  ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.erb
--'  18  0  ~/Documents/GOOD/maud/app/views/layouts/email.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/views/layouts/email.html.slim
--'  6  0  ~/Documents/GOOD/maud/app/views/devise/sessions/new.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/views/devise/sessions/new.html.slim
--'  5  0  ~/Documents/GOOD/maud/app/views/devise/registrations/edit.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/views/devise/registrations/new.html.slim
--'  13  23  ~/Documents/GOOD/maud/app/views/layouts/registration.html.slim
--'  19  39  ~/Documents/GOOD/maud/app/views/layouts/registration.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/views/layouts/registration.html.slim
--'  5  36  ~/Documents/GOOD/maud/config/routes.rb
--'  1  0  ~/Documents/GOOD/maud/config/routes.rb
--'  1  0  ~/Documents/GOOD/maud/app/controllers/users/sessions_controller.rb
--'  2  0  ~/Documents/GOOD/foodforward/app/controllers/users/registrations_controller.rb
--'  1  0  ~/Documents/GOOD/maud/app/controllers/users/registrations_controller.rb
--'  1  0  ~/Documents/GOOD/maud/app/controllers/users/passwords_controller.rb
--'  2  0  ~/Documents/GOOD/foodforward/app/controllers/users/invitations_controller.rb
--'  1  0  ~/Documents/GOOD/maud/app/controllers/users/invitations_controller.rb
--'  5  0  ~/Documents/GOOD/maud/NERD_tree_2
--'  8  2  ~/Documents/GOOD/maud/NERD_tree_2
--'  1  0  ~/Documents/GOOD/maud/NERD_tree_2
--'  13  2  ~/Documents/GOOD/maud/NERD_tree_1
--'  1  0  ~/Documents/GOOD/foodforward/config/routes.rb
--'  1  0  ~/Documents/GOOD/foodforward/app/controllers/users/passwords_controller.rb
--'  1  0  ~/Documents/GOOD/foodforward/spec/factories/events.rb
--'  29  0  ~/Documents/GOOD/foodforward/spec/models/event_spec.rb
--'  56  8  ~/Documents/GOOD/foodforward/spec/models/event_spec.rb
--'  48  46  ~/Documents/GOOD/foodforward/app/models/event.rb
--'  24  0  ~/Documents/GOOD/foodforward/app/models/event.rb
--'  1  0  ~/Documents/GOOD/foodforward/app/models/event.rb
--'  56  56  ~/.bash_profile
--'  13  40  ~/Documents/GOOD/maud/app/assets/stylesheets/views/projects/show.css.scss
--'  1  0  ~/Documents/GOOD/maud/app/assets/stylesheets/views/projects/show.css.scss
--'  15  0  ~/Documents/GOOD/maud/app/assets/stylesheets/mixins/_fonts.scss
--'  1  0  ~/Documents/GOOD/maud/app/assets/stylesheets/mixins/_fonts.scss
--'  63  0  ~/Documents/GOOD/maud/config/environments/production.rb
--'  1  0  ~/Documents/GOOD/maud/config/environments/production.rb
--'  43  2  ~/Documents/GOOD/maud/config/environments/production.rb
--'  38  0  ~/Documents/GOOD/maud/README.md
--'  1  0  ~/Documents/GOOD/maud/README.md
--'  42  0  ~/.bash_profile
--'  1  0  ~/Documents/GOOD/foodforward/config/initializers/legacy_database.rb
--'  47  7  ~/.bash_profile
--'  1  0  ~/Documents/GOOD/ianmac/app/views/videos/index.html.haml
--'  5  0  ~/Documents/GOOD/ianmac/config/database.yml
--'  3  18  ~/Documents/GOOD/ianmac/config/database.yml
--'  16  0  ~/Documents/GOOD/ianmac/config/database.yml
--'  9  0  ~/Documents/GOOD/ianmac/config/database.yml
--'  1  0  ~/Documents/GOOD/ianmac/config/database.yml
--'  1  0  ~/Documents/GOOD/foodforward/Rakefile
--'  1  0  ~/Documents/GOOD/maud/Rakefile
--'  1  0  ~/Documents/GOOD/maud/Gemfile
--'  31  0  ~/Documents/GOOD/maud/app/views/project_settings/show.html.slim
--'  1  0  ~/Documents/GOOD/maud/app/views/project_settings/show.html.slim
--'  15  0  ~/Documents/GOOD/maud/app/views/project_settings/show.html.slim
--'  14  4  ~/Documents/GOOD/maud/app/views/project_settings/show.html.slim
--'  13  0  ~/Documents/GOOD/maud/app/views/project_settings/show.html.slim
--'  50  0  ~/Documents/GOOD/maud/README.md
--'  1  0  ~/Documents/GOOD/maud/app/models/charge.rb
--'  1  0  ~/Documents/GOOD/maud/spec/models/charge_spec.rb
--'  1  0  ~/Documents/GOOD/maud/spec/factories/accounts.rb
--'  1  0  ~/Documents/GOOD/maud/spec/factories/projects.rb
--'  56  0  ~/Documents/GOOD/maud/spec/controllers/charge_controller_spec.rb
--'  93  10  ~/Documents/GOOD/maud/spec/controllers/charge_controller_spec.rb
--'  1  0  ~/Documents/GOOD/maud/spec/controllers/charge_controller_spec.rb
--'  33  20  ~/Documents/GOOD/maud/app/models/charge.rb
--'  41  0  ~/Documents/GOOD/maud/spec/models/charge_spec.rb
--'  3  0  ~/Documents/GOOD/maud/spec/models/charge_spec.rb
--'  15  0  ~/Documents/GOOD/maud/spec/models/charge_spec.rb
--'  7  10  ~/Documents/GOOD/maud/spec/features/viewing/account/show_spec.rb
--'  1  0  ~/Documents/GOOD/maud/spec/features/viewing/account/show_spec.rb
--'  1  0  ~/Documents/GOOD/maud/app/assets/stylesheets/mixins/_variables.scss
--'  1  0  ~/Documents/GOOD/maud/app/assets/stylesheets/common/_icons.scss
--'  22  31  ~/Documents/GOOD/maud/spec/features/submitting/clients/new_client_spec.rb
--'  10  19  ~/Documents/GOOD/maud/spec/features/viewing/projects/new_spec.rb
--'  1  0  ~/Documents/GOOD/maud/spec/features/viewing/projects/new_spec.rb
--'  37  0  ~/Documents/GOOD/maud/spec/features/submitting/authentication/update_user_account_spec.rb
--'  21  6  ~/Documents/GOOD/maud/spec/features/submitting/authentication/update_user_account_spec.rb
--'  1  0  ~/Documents/GOOD/maud/spec/features/submitting/authentication/update_user_account_spec.rb
--'  47  4  ~/Documents/GOOD/maud/spec/features/submitting/projects/new_project_spec.rb
--'  14  0  ~/Documents/GOOD/maud/spec/controllers/clients_controller_spec.rb
--'  6  8  ~/Documents/GOOD/maud/app/controllers/clients_controller.rb
--'  56  0  ~/Documents/GOOD/maud/app/controllers/projects_controller.rb
--'  20  4  ~/Documents/GOOD/maud/app/controllers/projects_controller.rb
--'  12  34  ~/Documents/GOOD/maud/app/views/projects/new.html.slim
+-'  1  0  ~/Documents/GOOD/summerland/app/controllers/admin/assignments_controller.rb
+-'  5  24  ~/Documents/GOOD/summerland/app/controllers/admin/assignments_controller.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/models/user.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/assets/javascripts/models/add_on.js.coffee
+-'  2  5  ~/Documents/GOOD/summerland/app/controllers/admin/assignments_controller.rb
+-'  87  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  45  2  ~/.vim/colors/base16-ocean.vim
+-'  1  0  ~/.vim/colors/base16-ocean.vim
+-'  23  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  60  0  ~/Documents/GOOD/summerland/app/models/purchase.rb
+-'  48  0  ~/Documents/GOOD/summerland/app/models/purchase.rb
+-'  25  8  ~/Documents/GOOD/summerland/app/models/purchase.rb
+-'  24  8  ~/Documents/GOOD/summerland/app/models/purchase.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/models/purchase.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/models/purchase
+-'  20  4  ~/Documents/GOOD/summerland/app/controllers/cart_items_controller.rb
+-'  2  3  ~/Documents/GOOD/summerland/app/controllers/cart_items_controller.rb
+-'  30  0  ~/Documents/GOOD/summerland/app/controllers/cart_items_controller.rb
+-'  3  0  ~/Documents/GOOD/summerland/spec/controllers/cart_items_controller_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/controllers/cart_items_controller_spec.rb
+-'  3  0  ~/Documents/GOOD/summerland/config/initializers/stripe.rb
+-'  16  0  ~/Documents/GOOD/summerland/app/models/charge.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/models/charge.rb
+-'  67  0  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  47  4  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  49  45  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  48  24  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  60  4  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  55  7  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  139  0  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  123  58  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  112  24  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  4  0  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  20  18  ~/Documents/GOOD/summerland/app/mailers/delivery_mailer.rb
+-'  3  6  ~/Documents/GOOD/summerland/app/mailers/delivery_mailer.rb
+-'  2  0  ~/Documents/GOOD/summerland/app/mailers/payment_mailer.rb
+-'  2  0  ~/Documents/GOOD/summerland/app/mailers/user_mailer.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/mailers/user_mailer.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/factories/purchase_types.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/models/user_spec.rb
+-'  2  8  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/.git/COMMIT_EDITMSG
+-'  39  6  ~/Documents/GOOD/maud/.gitignore
+-'  24  6  ~/Documents/GOOD/maud/.gitignore
+-'  21  6  ~/Documents/GOOD/maud/.gitignore
+-'  1  0  ~/Documents/GOOD/maud/.gitignore
+-'  46  0  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  38  8  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  25  32  ~/Documents/GOOD/summerland/spec/models/day_spec.rb
+-'  6  21  ~/Documents/GOOD/summerland/spec/models/day_spec.rb
+-'  21  9  ~/Documents/GOOD/summerland/spec/models/day_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/models/day_spec.rb
+-'  17  0  ~/Documents/GOOD/summerland/app/models/purchase.rb
+-'  19  0  ~/Documents/GOOD/summerland/app/models/day.rb
+-'  106  15  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  98  58  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  105  1  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  17  6  ~/Documents/GOOD/summerland/app/models/payment.rb
+-'  102  15  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  89  0  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  82  56  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  107  8  ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+-'  27  18  ~/Documents/GOOD/summerland/app/models/purchase.rb
+-'  16  0  ~/Documents/GOOD/summerland/spec/models/day_spec.rb
+-'  42  2  ~/Documents/GOOD/summerland/spec/models/day_spec.rb
+-'  49  4  ~/Documents/GOOD/summerland/app/controllers/admin/add_ons_controller.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/controllers/admin/add_ons_controller.rb
+-'  15  0  ~/Documents/GOOD/summerland/spec/controllers/admin/add_ons_controller_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/controllers/admin/add_ons_controller_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/helpers/boxes_helper.rb
+-'  21  0  ~/Documents/GOOD/summerland/app/helpers/boxes_helper.rb
+-'  17  0  ~/Documents/GOOD/summerland/app/helpers/boxes_helper.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/helpers/admin/boxes_helper.rb
+-'  33  6  ~/Documents/GOOD/summerland/spec/controllers/admin/add_ons_controller_spec.rb
+-'  29  12  ~/Documents/GOOD/summerland/spec/controllers/admin/add_ons_controller_spec.rb
+-'  22  6  ~/Documents/GOOD/summerland/spec/controllers/admin/add_ons_controller_spec.rb
+-'  5  34  ~/Documents/GOOD/summerland/spec/controllers/admin/add_ons_controller_spec.rb
+-'  2  0  ~/Documents/GOOD/summerland/spec/helpers/api/coupons_helper_spec.rb
+-'  3  0  ~/Documents/GOOD/summerland/spec/helpers/api/coupons_helper_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/helpers/api/coupons_helper_spec.rb
+-'  2  0  ~/Documents/GOOD/summerland/spec/helpers/admin/routes_helper_spec.rb
+-'  3  0  ~/Documents/GOOD/summerland/spec/helpers/admin/routes_helper_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/helpers/admin/routes_helper_spec.rb
+-'  4  0  ~/Documents/GOOD/summerland/spec/helpers/admin/assignments_helper_spec.rb
+-'  3  0  ~/Documents/GOOD/summerland/spec/helpers/admin/assignments_helper_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/helpers/admin/assignments_helper_spec.rb
+-'  5  0  ~/Documents/GOOD/summerland/spec/helpers/admin/assignments_helper_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/helpers/api/coupons_helper.rb
+-'  27  6  ~/Documents/GOOD/summerland/app/helpers/purchases_helper.rb
+-'  1  0  ~/Documents/GOOD/summerland/app/helpers/purchases_helper.rb
+-'  4  0  ~/Documents/GOOD/summerland/spec/models/coupon_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/models/coupon_spec.rb
+-'  1  0  ~/Documents/GOOD/summerland/spec/models/charge_spec.rb
 
 # History of marks within files (newest to oldest):
 
-> ~/.bash_profile
-	"	33	0
-	^	60	84
-	.	60	44
-	+	56	45
-	+	60	44
-	+	63	34
-	+	65	81
-	+	63	34
-	+	60	44
-
-> ~/Documents/GOOD/maud/.git/COMMIT_EDITMSG
+> ~/Documents/GOOD/summerland/app/controllers/admin/assignments_controller.rb
 	"	1	0
-
-> ~/Documents/GOOD/maud/app/views/devise/passwords/edit.html.slim
-	"	3	0
-
-> ~/Documents/GOOD/maud/ControlP
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/GOOD/maud/app/views/layouts/registration.html.slim
-	"	14	8
-	^	13	69
-	.	14	0
-	+	4	13
-	+	18	49
-	+	19	48
-	+	14	23
-	+	14	33
-	+	14	28
-	+	13	68
-	+	14	0
-
-> ~/Documents/GOOD/maud/app/views/devise/registrations/new.html.slim
-	"	1	0
-	^	2	17
-	.	1	0
-	+	2	16
-	+	1	0
-
-> ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.slim
-	"	1	42
-	^	1	43
-	.	1	42
-	+	1	30
-	+	3	0
-	+	3	96
-	+	5	0
-	+	3	0
-	+	7	55
-	+	9	83
-	+	9	1
-	+	8	0
-	+	5	1
-	+	5	92
-	+	5	3
-	+	1	42
-
-> ~/Documents/GOOD/maud/app/mailers/account_mailer.rb
-	"	1	0
-
-> ~/Documents/GOOD/maud/NERD_tree_1
-	"	5	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/GOOD/maud/app/views/account_mailer/invite_request.html.slim
-	"	1	0
-
-> ~/Documents/GOOD/maud/app/views/devise/mailer/reset_password_instructions.html.erb
-	"	5	0
-
-> ~/Documents/GOOD/maud/app/views/layouts/email.html.slim
-	"	18	0
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/email/layout.css.scss
-	"	2	42
-	^	2	43
-	.	2	42
-	+	26	17
-	+	56	0
-	+	55	0
-	+	14	36
-	+	19	0
-	+	19	0
-	+	20	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	3	0
-	+	2	42
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/registration/layout.css.scss
-	"	23	0
-	^	13	49
-	.	14	0
-	+	57	15
-	+	52	2
-	+	13	48
-	+	14	0
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/mixins/_sections.scss
-	"	1	43
-	^	1	44
-	.	1	43
-	+	8	0
-	+	2	0
-	+	3	0
-	+	8	0
-	+	1	43
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/email.css.scss
-	"	7	23
-	^	7	24
-	.	7	23
-	+	7	23
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/registration.css.scss
-	"	1	0
-
-> ~/Documents/GOOD/maud/app/views/devise/sessions/new.html.slim
-	"	6	0
-	^	6	34
-	.	6	33
-	+	6	33
-
-> ~/Documents/GOOD/maud/app/views/devise/passwords/new.html.slim
-	"	5	13
-	.	5	13
-	+	5	13
-
-> ~/Documents/GOOD/maud/app/views/devise/registrations/edit.html.slim
-	"	5	0
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/common/_blocks.scss
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/views/layout.css.scss
-	"	144	0
-	^	145	0
-	.	145	0
-	+	135	0
-	+	145	0
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/common/_forms.scss
-	"	12	0
-
-> ~/Documents/GOOD/maud/app/controllers/static_controller.rb
-	"	9	0
-	^	9	5
-	.	9	0
-	+	9	0
-	+	10	0
-	+	9	0
-
-> ~/Documents/GOOD/maud/config/routes.rb
-	"	29	0
-	^	29	0
-	.	29	0
-	+	4	41
-	+	8	2
-	+	6	31
-	+	7	30
-	+	5	36
-	+	35	39
-	+	35	46
-	+	35	0
-	+	30	0
-	+	29	0
-
-> ~/Documents/GOOD/summerland/config/routes.rb
-	"	36	4
-
-> ~/Documents/GOOD/maud/app/controllers/users/sessions_controller.rb
-	"	1	0
-
-> ~/Documents/GOOD/maud/app/controllers/users/registrations_controller.rb
-	"	2	2
 	.	2	0
+	+	1	0
+	+	15	92
 	+	2	0
 
-> ~/Documents/GOOD/foodforward/app/controllers/users/registrations_controller.rb
-	"	2	0
-
-> ~/Documents/GOOD/maud/app/controllers/users/passwords_controller.rb
-	"	1	0
-
-> ~/Documents/GOOD/maud/NERD_tree_2
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/GOOD/maud/app/controllers/users/invitations_controller.rb
-	"	2	2
-	.	2	0
-	+	2	0
-
-> ~/Documents/GOOD/foodforward/app/controllers/users/invitations_controller.rb
-	"	2	0
-
-> ~/Documents/GOOD/foodforward/config/routes.rb
-	"	1	0
-
-> ~/Documents/GOOD/foodforward/app/controllers/users/passwords_controller.rb
-	"	1	0
-
-> ~/Documents/GOOD/foodforward/app/models/event.rb
-	"	106	29
-	^	106	30
-	.	106	29
-	+	23	78
-	+	48	46
-	+	47	0
-	+	104	0
-	+	102	34
-	+	119	45
-	+	119	47
-	+	119	0
-	+	120	100
-	+	119	0
-	+	119	0
-	+	119	0
-	+	113	0
-	+	107	0
-	+	107	0
-	+	106	24
-	+	107	0
-	+	126	25
-	+	127	0
-	+	129	10
-	+	130	10
-	+	134	10
-	+	135	10
-	+	128	12
-	+	129	32
-	+	130	24
-	+	134	33
-	+	135	24
-	+	133	12
-	+	119	0
-	+	119	0
-	+	118	28
-	+	119	0
-	+	137	4
-	+	120	65
-	+	119	64
-	+	126	46
-	+	130	62
-	+	135	63
-	+	107	0
-	+	106	29
-
-> ~/Documents/GOOD/foodforward/spec/models/event_spec.rb
-	"	65	10
-	^	70	75
-	.	66	0
-	+	56	0
-	+	34	0
-	+	37	0
-	+	40	0
-	+	29	29
-	+	28	59
-	+	29	47
-	+	37	8
-	+	29	28
-	+	30	42
-	+	36	48
-	+	37	0
-	+	33	0
-	+	36	0
-	+	31	18
-	+	36	15
-	+	40	29
-	+	32	34
-	+	34	0
-	+	36	9
-	+	40	9
-	+	71	39
-	+	72	76
-	+	71	0
-	+	57	41
-	+	55	40
-	+	59	31
-	+	47	8
-	+	48	8
-	+	66	23
-	+	66	0
-	+	59	0
-	+	66	17
-	+	66	0
-	+	63	71
-	+	66	0
-	+	65	21
-	+	66	0
-	+	66	0
-
-> ~/Documents/GOOD/foodforward/ControlP
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/GOOD/foodforward/spec/factories/events.rb
-	"	1	0
-
-> ~/Documents/GOOD/tomorrow/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/tomorrow/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	5	43
-	+	5	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	15	0
-	+	15	0
-	+	4	4
-	+	5	0
-	+	9	4
-	+	10	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-	+	8	0
-	+	9	0
-	+	4	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/soma/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/soma/config/s3.yml
-	"	13	0
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	9	4
-	+	10	0
-	+	14	4
-	+	15	0
-	+	14	0
-	+	13	0
-	+	9	0
-	+	8	0
-	+	4	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/soma/ControlP
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/GOOD/soma/config/s3-background.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	9	4
-	+	10	0
-	+	14	4
-	+	15	0
-	+	14	0
-	+	13	0
-	+	9	0
-	+	8	0
-	+	4	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/soma/config/s3-video.yml
-	"	13	0
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	9	4
-	+	10	0
-	+	14	4
-	+	15	0
-	+	14	0
-	+	13	0
-	+	9	0
-	+	8	0
-	+	4	0
-	+	3	37
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/soma/config/s3-ogg.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	4
-	+	3	0
-	+	4	0
-	+	9	4
-	+	10	0
-	+	14	4
-	+	15	0
-	+	14	0
-	+	13	0
-	+	14	0
-	+	9	0
-	+	8	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/schradical/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/schradical/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	9	4
-	+	10	0
-	+	14	4
-	+	15	0
-	+	14	0
-	+	13	0
-	+	9	0
-	+	8	0
-	+	4	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/ianmac/config/s3.yml
-	"	1	0
-	^	13	37
-	.	13	17
-	+	2	26
-	+	4	4
-	+	5	0
-	+	3	0
-	+	4	0
-	+	9	4
-	+	10	0
-	+	8	0
-	+	9	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/ianmac/config/s3-photos.yml
-	"	2	0
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	3	0
-	+	4	0
-	+	9	4
-	+	10	0
-	+	8	0
-	+	9	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/renee/app/controllers/sites_controller.rb
-	"	43	25
-	^	43	26
-	.	43	25
-	+	41	0
-	+	43	25
-
-> ~/Documents/GOOD/renee/app/controllers/application_controller.rb
-	"	1	0
-
-> ~/Documents/GOOD/renee/ControlP
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/Documents/GOOD/renee/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/renee/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	3	0
-	+	4	0
-	+	9	4
-	+	10	0
-	+	8	0
-	+	9	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/redcat/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/redcat/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	4
-	+	3	0
-	+	4	0
-	+	5	0
-	+	9	4
-	+	10	0
-	+	8	0
-	+	9	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/mobhooks/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/mobhooks/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	3	0
-	+	4	0
-	+	9	4
-	+	10	0
-	+	8	0
-	+	9	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/memorytree/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/memorytree/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	4
-	+	5	0
-	+	3	0
-	+	4	0
-	+	9	4
-	+	10	0
-	+	14	4
-	+	15	0
-	+	14	0
-	+	13	0
-	+	9	0
-	+	8	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/lab/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/lab/config/s3.yml
-	"	1	34
-	^	1	35
-	.	1	15
-	+	2	2
-	+	1	0
-	+	2	0
-	+	1	15
-
-> ~/Documents/GOOD/ianmac/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/houndstooth/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/houndstooth/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	3	17
-	+	8	17
-	+	13	17
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/goddamnyouryan/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	3	17
-	+	8	17
-	+	13	17
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/bang/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/GOOD/bang/NERD_tree_2
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/Documents/GOOD/dating/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~/Documents/GOOD/dating/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	3	0
-	+	4	0
-	+	3	0
-	+	4	0
-	+	9	4
-	+	10	0
-	+	8	0
-	+	9	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-	+	8	17
-	+	3	17
-	+	13	17
-
-> ~/Documents/GOOD/bang/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	13	0
-	+	15	0
-	+	13	0
-	+	15	0
-	+	13	0
-	+	1	0
-	+	10	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/b2plus/config/s3.yml
-	"	13	36
-	^	13	37
-	.	13	17
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	3	0
-	+	4	43
-	+	9	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	14	4
-	+	14	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	3	17
-	+	8	17
-	+	13	17
-
-> ~/Documents/GOOD/maud/config/s3.yml
-	"	14	18
-	^	3	37
-	.	14	18
-	+	1	0
-	+	3	17
-	+	8	17
-	+	13	17
-	+	14	18
-	+	3	17
-	+	8	17
-	+	13	17
-	+	3	17
-	+	14	18
-
-> ~/Documents/GOOD/maud/lib/with_image.rb
-	"	23	6
-	.	39	0
-	+	38	0
-	+	39	0
-	+	38	23
-	+	38	31
-	+	39	8
-	+	39	0
-	+	39	50
-	+	39	0
-
-> ~/Documents/GOOD/maud/app/models/medium.rb
-	"	1	0
-
-> ~/Documents/GOOD/maud/config/initializers/paperclip_options.rb
-	"	1	0
-
-> ~/Documents/GOOD/hatch/config/s3.yml
-	"	14	2
-	^	14	74
-	.	14	0
-	+	4	4
-	+	5	0
-	+	3	0
-	+	4	0
-	+	9	4
-	+	8	0
-	+	10	0
-	+	8	0
-	+	9	0
-	+	14	4
-	+	15	0
-	+	13	0
-	+	14	0
-
-> ~/Documents/GOOD/tomorrow/config/database.yml
-	"	15	2
-	.	16	0
-	+	16	0
-
-> ~/Documents/GOOD/maud/spec/controllers/api/v1/accounts_controller_spec.rb
-	"	5	10
-	^	4	12
-	.	4	0
-	+	16	15
-	+	7	19
-	+	7	14
-	+	7	0
-	+	5	0
-	+	4	0
-	+	16	0
-	+	4	0
-
-> ~/Documents/GOOD/maud/app/models/api_key.rb
-	"	1	0
-	^	4	19
-	.	4	18
-	+	2	40
-	+	4	37
-	+	2	58
-	+	8	0
-	+	11	0
-	+	10	16
-	+	9	0
-	+	9	0
-	+	9	0
-	+	10	0
-	+	10	0
-	+	9	0
-	+	10	0
-	+	9	5
-	+	4	18
-
-> ~/Documents/GOOD/maud/spec/support/request_helpers.rb
-	"	11	52
-	^	11	78
-	.	11	52
-	+	11	52
-
-> ~/Documents/GOOD/maud/app/controllers/api/v1/base_controller.rb
-	"	9	6
-	.	9	0
-	+	2	31
-	+	6	0
-	+	12	0
-	+	11	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	9	5
-	+	7	0
-	+	9	0
-
-> ~/Documents/GOOD/maud/spec/controllers/api/v1/base_controller_spec.rb
-	"	3	6
-	.	7	0
-	+	3	21
-	+	13	15
-	+	13	0
-	+	28	0
-	+	28	0
-	+	7	0
-
-> ~/Documents/GOOD/maud/config/environments/production.rb
-	"	63	0
-	.	63	0
-	+	62	43
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	0
-	+	63	59
-	+	63	59
-	+	63	59
-	+	63	60
-	+	63	36
-	+	63	36
-	+	63	36
-	+	63	0
-
-> ~/Documents/GOOD/foodforward/.git/MERGE_MSG
-	"	1	0
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/views/projects/show.css.scss
-	"	13	40
-	.	14	0
-	+	13	40
-	+	14	0
-
-> ~/Documents/GOOD/maud/app/assets/stylesheets/mixins/_fonts.scss
-	"	15	0
-
-> ~/Documents/GOOD/houndstooth/app/assets/stylesheets/mixins/_fonts.scss
-	"	1	0
-	^	1	0
-
-> ~/Documents/GOOD/houndstooth/config/environments/production.rb
-	"	63	2
-	.	63	0
-	+	63	0
-
-> ~/Documents/GOOD/maud/README.md
-	"	38	0
-	^	50	0
-	.	49	85
-	+	1	6
-	+	1	6
-	+	49	85
-
-> ~/Documents/GOOD/maud/config/application.rb
-	"	31	39
-	^	31	40
-	.	31	39
-	+	31	39
-
-> ~/Documents/GOOD/foodforward/config/initializers/legacy_database.rb
-	"	1	0
-	^	4	31
-	.	4	30
-	+	2	0
-	+	1	49
-	+	2	0
-	+	4	69
-	+	5	24
-	+	2	30
-	+	4	30
-
-> ~/Documents/GOOD/ianmac/app/views/videos/index.html.haml
-	"	1	0
-
-> ~/Documents/GOOD/ianmac/ControlP
+> ~/Documents/GOOD/summerland/ControlP
 	"	10	0
 	.	2	0
 	+	1	0
@@ -1500,6 +349,503 @@ $
 	+	1	0
 	+	1	0
 	+	1	0
+	+	16	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+
+> ~/.vimrc
+	"	1	0
+	.	20	0
+	+	23	27
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	29
+	+	23	47
+	+	21	0
+	+	23	0
+	+	4	0
+	+	20	0
+	+	19	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+
+> ~/Documents/GOOD/summerland/app/assets/javascripts/views/registration/users_form.js.coffee
+	"	1	0
+
+> ~/.vim/.netrwhist
+	"	1	0
+
+> ~/.vim/autoload/pathogen.vim
+	"	218	4
+
+> ~/Documents/GOOD/summerland/app/controllers/application_controller.rb
+	"	1	0
+	^	38	20
+	.	38	20
+	+	38	20
+
+> ~/Documents/GOOD/summerland/app/models/user.rb
+	"	1	0
+	^	58	50
+	.	59	0
+	+	37	45
+	+	59	12
+	+	59	0
+	+	57	21
+	+	58	49
+	+	59	0
+
+> ~/Documents/GOOD/summerland/app/assets/javascripts/models/add_on.js.coffee
+	"	1	0
+
+> ~/.viminfo
+	"	87	0
+
+> ~/.vim/colors/base16-ocean.vim
+	"	45	2
+
+> ~/Documents/GOOD/summerland/app/models/purchase.rb
+	"	60	0
+	^	17	148
+	.	53	0
+	+	35	0
+	+	18	64
+	+	17	70
+	+	18	104
+	+	17	147
+	+	35	0
+	+	34	0
+	+	17	147
+	+	53	0
+
+> ~/Documents/GOOD/summerland/app/models/assignment.rb
+	"	1	0
+	^	27	12
+	.	27	25
+	+	27	25
+
+> ~/Documents/GOOD/summerland/app/models/day.rb
+	"	99	23
+	^	99	40
+	.	99	23
+	+	14	24
+	+	23	13
+	+	24	0
+	+	23	4
+	+	24	0
+	+	23	0
+	+	22	10
+	+	12	0
+	+	18	26
+	+	9	33
+	+	18	0
+	+	19	4
+	+	20	4
+	+	19	7
+	+	9	0
+	+	20	45
+	+	19	9
+	+	20	64
+	+	20	0
+	+	19	4
+	+	102	19
+	+	103	29
+	+	105	6
+	+	101	0
+	+	99	23
+
+> ~/Documents/GOOD/summerland/lib/tasks/deliveries.rake
+	"	1	0
+
+> ~/Documents/GOOD/summerland/lib/tasks/purchases.rake
+	"	1	0
+
+> ~/Documents/GOOD/summerland/lib/tasks/days.rake
+	"	4	0
+
+> ~/Documents/GOOD/summerland/app/models/day
+	"	1	0
+
+> ~/Documents/GOOD/postman/app/models/learn.rb
+	"	1	0
+
+> ~/Documents/GOOD/postman/ControlP
+	"	7	0
+	.	2	0
+	+	2	0
+
+> ~/Documents/GOOD/postman/config.ru
+	"	1	0
+
+> ~/Documents/GOOD/summerland/app/models/purchase
+	"	1	0
+
+> ~/Documents/GOOD/summerland/spec/controllers/cart_items_controller_spec.rb
+	"	104	10
+	^	102	0
+	.	104	0
+	+	42	0
+	+	43	0
+	+	5	23
+	+	6	16
+	+	11	43
+	+	12	80
+	+	16	0
+	+	20	47
+	+	22	35
+	+	21	0
+	+	25	37
+	+	29	0
+	+	30	0
+	+	27	55
+	+	29	0
+	+	28	36
+	+	29	0
+	+	42	0
+	+	34	7
+	+	34	0
+	+	37	0
+	+	36	0
+	+	42	0
+	+	12	6
+	+	20	8
+	+	22	30
+	+	34	30
+	+	22	22
+	+	34	22
+	+	15	59
+	+	14	87
+	+	13	0
+	+	81	0
+	+	115	0
+	+	116	0
+	+	99	0
+	+	115	0
+	+	101	56
+	+	114	8
+	+	115	0
+	+	50	0
+	+	63	43
+	+	85	28
+	+	86	20
+	+	63	0
+	+	63	0
+	+	66	0
+	+	81	0
+	+	63	0
+	+	63	0
+	+	80	0
+	+	63	0
+	+	52	0
+	+	64	0
+	+	67	8
+	+	59	0
+	+	63	0
+	+	50	0
+	+	50	43
+	+	59	41
+	+	50	0
+	+	61	44
+	+	65	46
+	+	66	0
+	+	60	10
+	+	55	0
+	+	46	12
+	+	47	0
+	+	49	6
+	+	60	0
+	+	65	64
+	+	72	22
+	+	71	35
+	+	72	58
+	+	78	0
+	+	80	0
+	+	78	0
+	+	91	52
+	+	96	11
+	+	96	0
+	+	99	0
+	+	106	58
+	+	110	0
+	+	112	0
+	+	114	0
+	+	112	39
+	+	110	60
+	+	78	0
+	+	74	0
+	+	73	0
+	+	108	0
+	+	107	0
+	+	93	0
+	+	92	0
+	+	110	0
+	+	112	81
+	+	112	0
+	+	102	0
+	+	102	0
+	+	104	0
+
+> ~/Documents/GOOD/summerland/app/controllers/cart_items_controller.rb
+	"	20	4
+	.	20	0
+	+	2	0
+	+	3	0
+	+	26	0
+	+	25	0
+	+	25	0
+	+	20	0
+	+	20	0
+
+> ~/Documents/GOOD/summerland/spec/factories/purchase_types.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/spec/controllers/admin/add_ons_controller_spec.rb
+	"	2	0
+	^	43	76
+	.	53	0
+	+	5	34
+	+	22	0
+	+	29	13
+	+	31	54
+	+	32	0
+	+	29	0
+	+	29	0
+	+	28	24
+	+	30	31
+	+	31	0
+	+	30	0
+	+	15	69
+	+	53	0
+	+	53	0
+	+	51	0
+	+	50	24
+	+	52	14
+	+	53	54
+	+	43	73
+	+	53	0
+
+> ~/Documents/GOOD/summerland/spec/factories/cart_items.rb
+	"	4	0
+	^	3	8
+	.	4	0
+	+	1	0
+	+	5	17
+	+	3	8
+	+	4	0
+
+> ~/Documents/GOOD/summerland/app/models/cart_item.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/lib/includes.rb
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/GOOD/summerland/spec/models/payment_spec.rb
+	"	139	8
+	^	125	10
+	.	139	0
+	+	106	0
+	+	106	0
+	+	82	56
+	+	106	16
+	+	82	26
+	+	106	0
+	+	102	15
+	+	98	61
+	+	102	0
+	+	98	0
+	+	80	0
+	+	81	0
+	+	98	0
+	+	102	0
+	+	106	0
+	+	106	0
+	+	103	0
+	+	106	0
+	+	106	0
+	+	106	0
+	+	106	0
+	+	105	0
+	+	106	15
+	+	98	38
+	+	98	59
+	+	106	0
+	+	116	0
+	+	116	0
+	+	116	0
+	+	106	0
+	+	106	0
+	+	98	0
+	+	97	0
+	+	97	53
+	+	100	0
+	+	119	0
+	+	2	0
+	+	4	23
+	+	4	0
+	+	4	0
+	+	4	0
+	+	139	0
+	+	141	0
+	+	4	0
+	+	139	15
+	+	123	58
+	+	139	0
+	+	123	0
+	+	126	0
+	+	139	0
+
+> ~/Documents/GOOD/summerland/app/models/payment.rb
+	"	67	0
+	^	65	11
+	.	65	24
+	+	65	24
+
+> ~/Documents/GOOD/summerland/app/models/charge.rb
+	"	41	6
+	^	65	13
+	.	65	12
+	+	63	26
+	+	65	12
+
+> ~/Documents/GOOD/summerland/config/initializers/stripe.rb
+	"	3	0
+	.	3	0
+	+	3	0
+
+> ~/Documents/GOOD/summerland/app/assets/javascripts/views/user/boxes.js.coffee
+	"	1	0
+
+> ~/Documents/GOOD/summerland/config/initializers/stripe_exceptions.rb
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documents/GOOD/summerland/.git/COMMIT_EDITMSG
+	"	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rspec-core-2.14.5/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rspec-core-2.14.5/NERD_tree_2
+	"	11	2
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rspec-core-2.14.5/README.md
+	"	1	0
+
+> ~/Documents/GOOD/maud/app/views/project_settings/show.html.slim
+	"	1	0
+
+> ~/Documents/GOOD/maud/ControlP
+	"	8	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
@@ -1508,65 +854,392 @@ $
 	+	1	0
 	+	2	0
 
-> ~/Documents/GOOD/ianmac/app/views/videos/_index.html.haml
-	"	3	77
-	^	3	78
-	.	3	77
-	+	4	3
-	+	4	3
-	+	4	5
-	+	4	9
-	+	4	1
-	+	4	14
-	+	4	8
-	+	4	7
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	39
-	+	4	0
-	+	4	17
-	+	4	12
-	+	4	0
-	+	4	0
-	+	4	20
-	+	4	20
-	+	4	12
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	13
-	+	4	21
-	+	1	79
-	+	4	0
-	+	2	79
-	+	3	77
+> ~/Documents/GOOD/maud/app/models/project_setting.rb
+	"	1	0
 
-> ~/Documents/GOOD/ianmac/app/views/videos/_videos.html.haml
-	"	1	21
-	.	1	0
-	+	6	21
-	+	6	19
+> ~/Documents/GOOD/maud/spec/models/charge_spec.rb
+	"	60	15
+
+> ~/Documents/GOOD/citizen/spec/models/tag_spec.rb
+	"	106	21
+
+> ~/Documents/GOOD/summerland/app/mailers/user_mailer.rb
+	"	2	0
+	.	2	0
+	+	2	0
+	+	1	28
+	+	2	0
+	+	2	0
+	+	2	0
+	+	2	0
+
+> ~/Documents/GOOD/summerland/app/mailers/delivery_mailer.rb
+	"	20	18
+	^	1	14
+	.	20	6
+	+	27	0
+	+	26	2
+	+	2	0
+	+	3	0
+	+	1	13
+	+	11	6
+	+	20	6
+
+> ~/Documents/GOOD/summerland/app/helpers/payment_helper.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/app/mailers/base_mailer.rb
+	"	4	2
+	^	5	3
+	.	4	0
+	+	1	15
 	+	6	0
-	+	1	14
+	+	5	2
+	+	6	0
+	+	4	0
+
+> ~/Documents/GOOD/summerland/app/mailers/payment_mailer.rb
+	"	2	0
+	^	1	13
+	.	2	0
+	+	21	0
+	+	3	6
+	+	21	0
+	+	1	12
+	+	3	6
+	+	10	6
+	+	21	0
+	+	21	0
+	+	2	0
+
+> ~/Documents/GOOD/summerland/app/controllers/admin/users_controller.rb
+	"	36	0
+	^	36	14
+	.	36	13
+	+	36	13
+
+> ~/Documents/GOOD/summerland/lib/tasks/users.rake
+	"	18	27
+	^	18	27
+	.	18	27
+	+	18	27
+
+> ~/Documents/GOOD/summerland/app/mailers/holiday_mailer.rb
+	"	11	0
+	^	3	12
+	.	11	0
+	+	1	18
+	+	3	11
+	+	11	0
+
+> ~/Documents/GOOD/summerland/app/controllers/admin/days_controller.rb
+	"	42	0
+	^	32	51
+	.	32	50
+	+	32	50
+
+> ~/Documents/GOOD/summerland/app/mailers/contact_mailer.rb
+	"	2	0
+	^	1	32
+	.	2	0
+	+	1	31
+	+	2	0
+
+> ~/Documents/GOOD/summerland/app/views/payment_mailer/update.html.slim
+	"	1	0
+
+> ~/Documents/GOOD/summerland/app/models/week.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/spec/models/user_spec.rb
+	"	78	8
+	^	77	30
+	.	78	0
+	+	4	80
+	+	4	80
+	+	4	80
+	+	4	80
+	+	4	80
+	+	4	0
+	+	4	0
+	+	78	0
+	+	76	27
+	+	77	29
+	+	78	0
+
+> ~/Documents/GOOD/summerland/spec/factories/subscriptions.rb
+	"	3	0
+	.	4	0
+	+	6	33
+	+	4	0
+
+> ~/Documents/GOOD/maud/.gitignore
+	"	39	6
+
+> ~/Documents/GOOD/summerland/.gitignore
+	"	38	0
+	^	38	0
+	.	38	0
+	+	34	0
+	+	37	24
+	+	18	0
+	+	20	0
+	+	24	0
+	+	32	0
+	+	39	0
+	+	38	0
+
+> ~/Documents/GOOD/summerland/app/views/user_mailer/payment_confirmation.html.slim
+	"	2	27
+	.	2	27
+	+	2	27
+
+> ~/Documents/GOOD/summerland/spec/models/charge_spec.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/spec/models/day_spec.rb
+	"	25	32
+	^	25	33
+	.	25	32
+	+	16	0
+	+	42	2
+	+	16	0
+	+	12	0
+	+	16	13
+	+	16	56
+	+	16	0
+	+	6	25
+	+	7	27
+	+	16	0
+	+	21	56
+	+	22	0
+	+	25	42
+	+	26	0
+	+	21	9
+	+	25	32
+
+> ~/Documents/GOOD/summerland/spec/models/day
+	"	1	0
+
+> ~/Documents/GOOD/summerland/spec/factories/days.rb
+	"	1	0
+	.	6	0
+	+	3	31
+	+	4	29
+	+	5	23
+	+	6	30
+	+	2	28
+	+	3	25
+	+	4	22
+	+	3	16
+	+	5	18
+	+	6	114
+	+	2	0
+	+	3	0
+	+	3	20
+	+	4	18
+	+	6	0
+
+> ~/Documents/GOOD/summerland/spec/spec_helper.rb
+	"	49	23
+	^	49	24
+	.	49	23
+	+	1	0
+	+	9	0
+	+	8	0
+	+	3	23
+	+	49	23
+
+> ~/Documents/GOOD/maud/spec/spec_helper.rb
+	"	31	0
+
+> ~/Documents/GOOD/summerland/Gemfile.lock
+	"	265	4
+
+> ~/Documents/GOOD/foodforward/.git/MERGE_MSG
+	"	1	0
+
+> ~/Documents/GOOD/summerland/spec/factories/weeks.rb
+	"	4	0
+	^	4	30
+	.	4	29
+	+	3	32
+	+	4	0
+	+	4	0
+	+	3	58
+	+	4	31
+	+	3	18
+	+	4	16
+	+	3	24
+	+	4	22
+	+	3	31
+	+	4	29
+
+> ~/Documents/GOOD/summerland/spec/support/current_day_helpers.rb
+	"	9	6
+	^	9	7
+	.	9	6
+	+	11	33
+	+	1	23
+	+	11	0
+	+	11	0
+	+	4	13
+	+	1	0
+	+	10	0
+	+	5	49
+	+	6	41
+	+	8	4
+	+	10	0
+	+	4	14
+	+	2	20
+	+	3	30
+	+	4	0
+	+	9	6
+
+> ~/Documents/GOOD/summerland/spec/support/database_cleaner.rb
+	"	1	0
+
+> /private/var/folders/29/9yjpstf95mn45jplsbxdms5r0000gn/T/vdX2pXz/1.fugitiveblame
+	"	45	0
+
+> ~/Documents/GOOD/maud/spec/support/database_cleaner.rb
+	"	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl-4.2.0/NERD_tree_1
+	"	1	0
+	.	1	0
 	+	1	0
 
-> ~/Documents/GOOD/ianmac/app/controllers/videos_controller.rb
-	"	37	24
-	^	37	34
-	.	37	33
-	+	35	31
-	+	36	31
-	+	37	33
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl-4.2.0/NERD_tree_2
+	"	15	0
+	.	1	0
+	+	1	0
 
-> ~/Documents/GOOD/ianmac/app/models/video.rb
-	"	10	52
-	^	10	53
-	.	10	52
-	+	3	43
-	+	4	76
-	+	8	19
-	+	9	50
-	+	10	18
-	+	7	37
-	+	10	52
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl-4.2.0/GETTING_STARTED.md
+	"	309	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl_rails-4.2.1/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl_rails-4.2.1/NERD_tree_2
+	"	14	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl_rails-4.2.1/README.md
+	"	32	4
+
+> ~/Documents/GOOD/summerland/spec/factories/users.rb
+	"	21	8
+
+> ~/Documents/GOOD/summerland/app/models/subscription.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/Gemfile
+	"	48	2
+	.	48	0
+	+	39	0
+	+	40	0
+	+	40	0
+	+	40	0
+	+	50	0
+	+	59	0
+	+	6	0
+	+	50	0
+	+	48	0
+	+	50	0
+	+	48	0
+
+> ~/Documents/GOOD/maud/Gemfile
+	"	34	0
+
+> ~/Documents/GOOD/summerland/spec/factories/purchases.rb
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	0
+
+> ~/Documents/GOOD/summerland/spec/factories/ui
+	"	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/spring-1.1.2/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/spring-1.1.2/NERD_tree_2
+	"	13	2
+	.	1	0
+	+	1	0
+
+> ~/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/spring-1.1.2/README.md
+	"	42	0
+
+> ~/Documents/GOOD/summerland/app/controllers/admin/add_ons_controller.rb
+	"	49	4
+	.	49	0
+	+	16	13
+	+	31	0
+	+	16	0
+	+	49	0
+
+> ~/Documents/GOOD/summerland/app/helpers/boxes_helper.rb
+	"	1	0
+	^	21	4
+	.	1	0
+	+	21	0
+	+	1	0
+
+> ~/Documents/GOOD/summerland/app/helpers/admin/boxes_helper.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/spec/helpers/api/coupons_helper_spec.rb
+	"	2	0
+	^	2	0
+	.	2	0
+	+	3	0
+	+	4	0
+	+	2	0
+
+> ~/Documents/GOOD/summerland/spec/helpers/admin/routes_helper_spec.rb
+	"	2	0
+	^	2	0
+	.	2	0
+	+	3	0
+	+	4	0
+	+	2	0
+
+> ~/Documents/GOOD/summerland/spec/helpers/admin/assignments_helper_spec.rb
+	"	4	0
+	.	4	0
+	+	5	0
+	+	2	0
+	+	3	0
+	+	4	0
+
+> ~/Documents/GOOD/summerland/app/helpers/api/coupons_helper.rb
+	"	1	0
+
+> ~/Documents/GOOD/summerland/app/helpers/purchases_helper.rb
+	"	27	6
+
+> ~/Documents/GOOD/summerland/spec/models/coupon_spec.rb
+	"	4	0
+	^	4	0
+	.	4	0
+	+	4	0
+	+	4	0
+
+> ~/Documents/GOOD/summerland/spec/models/comment_spec.rb
+	"	4	0
+	.	4	0
+	+	4	0
+
+> ~/Documents/GOOD/summerland/spec/models/discount_spec.rb
+	"	4	0
+	.	4	0
+	+	4	0
