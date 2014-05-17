@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/sharpei/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rails_best_practices-1.15.1'
-let g:netrw_dirhist_2='/Users/sharpei/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/spring-1.1.2'
-let g:netrw_dirhist_3='/Users/sharpei/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl_rails-4.2.1'
-let g:netrw_dirhist_4='/Users/sharpei/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/factory_girl-4.2.0'
-let g:netrw_dirhist_5='/Users/sharpei/.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/rspec-core-2.14.5'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/sharpei/Documents/ruby/ai4r/test'
+let g:netrw_dirhist_2='/Users/sharpei/Documents/ruby/ai4r/test/genetic_algorithm'
+let g:netrw_dirhist_3='/Users/sharpei/Documents/ruby/ai4r/lib/ai4r'
+let g:netrw_dirhist_4='/Users/sharpei/Documents/ruby/ai4r/lib/ai4r/genetic_algorithm'
+let g:netrw_dirhist_5='/Users/sharpei/Documents/ruby/summerland/app/assets/stylesheets'
+let g:netrw_dirhist_6='/Users/sharpei/Documents/ruby/goddamnyouryan/app/views/sites_mailer'
+let g:netrw_dirhist_7='/Users/sharpei/Documents/ruby/foodforward/app/models/legacy'
