@@ -9,7 +9,7 @@ set ai
 set number
 set runtimepath+=/usr/share/lilypond/2.12.3/vim/
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-set wildignore=*.swp,*.bak,*.pyc,*.class
+set wildignore=*.swp,*.bak,*.pyc,*.class,*/node_modules
 nnoremap ; :
 filetype on
 filetype plugin on
@@ -19,7 +19,7 @@ set smartcase
 
 syntax on
 set background=dark
-colorscheme base16-ocean
+" colorscheme base16-ocean
 
 " Clear highlighted searches with ease
 nmap <silent> ,/ :nohlsearch<CR>
@@ -38,8 +38,15 @@ imap <right> <nop>
 let g:ctrlp_map = '<Leader>t'
 nnoremap <silent> <leader>T :ClearCtrlPCache<cr>\|:CtrlP<cr>
 
-" Nerd Tree
-map <Leader>n <plug>NERDTreeMirrorToggle<CR>
+" Sane Ignore For ctrlp
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc\|public\/images\|public\/system\|data\|log\|tmp\|\node_modules$\',
+  \ 'file': '\.exe$\|\.so$\|\.dat$'
+    \ }
+
+
+" CamelCaseMotion
+let g:camelcasemotion_key = '<leader>'
 
 " Vim UI {
   if has('statusline')
@@ -62,18 +69,6 @@ map <Leader>n <plug>NERDTreeMirrorToggle<CR>
   autocmd InsertLeave * match ExtraWhitespace /\s\+$/
   autocmd BufWinLeave * call clearmatches()
 " }
-
-" Command-T {
-  let g:CommandTCancelMap='<C-x>'
-  let g:CommandTAcceptSelectionMap = '<C-t>'
-  let g:CommandTAcceptSelectionTabMap = '<CR>'
-" }
-
-" Sane Ignore For ctrlp
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|\.yardoc\|public\/images\|public\/system\|data\|log\|tmp$',
-  \ 'file': '\.exe$\|\.so$\|\.dat$'
-    \ }
 
 nmap <C-k> [e
 nmap <C-j> ]e
