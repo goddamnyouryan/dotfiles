@@ -44,10 +44,6 @@ let g:ctrlp_custom_ignore = {
   \ 'file': '\.exe$\|\.so$\|\.dat$'
     \ }
 
-
-" CamelCaseMotion
-let g:camelcasemotion_key = '<leader>'
-
 " Vim UI {
   if has('statusline')
     set laststatus=2
